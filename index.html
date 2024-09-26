@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мое Портфолио</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#about">Обо мне</a></li>
+                <li><a href="#projects">Проекты</a></li>
+                <li><a href="#blog">Блог</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Добро пожаловать в мое портфолио</h1>
+        <p>Здесь вы найдете мои работы, статьи и контактную информацию.</p>
+    </section>
+
+    <section id="about">
+        <h2>Обо мне</h2>
+        <p>Здесь ты можешь добавить информацию о своем опыте и биографии.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Мои проекты</h2>
+        <p>Здесь будет галерея с изображениями и видео.</p>
+    </section>
+
+    <section id="blog">
+        <h2>Блог</h2>
+        <p>Здесь ты сможешь публиковать статьи.</p>
+    </section>
+
+<section id="contact">
+    <h2>Контакты</h2>
+    <form action="https://formspree.io/77637i4oo4@gmail.com" method="POST">
+        <label for="name">Имя:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Сообщение:</label>
+        <textarea id="message" name="message" required></textarea>
+        
+        <button type="submit">Отправить</button>
+    </form>
+</section>
+
+
+    <footer>
+        <p>© 2024 Мое Портфолио. Все права защищены.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
